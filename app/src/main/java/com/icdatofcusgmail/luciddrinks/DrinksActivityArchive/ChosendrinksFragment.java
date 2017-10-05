@@ -121,12 +121,6 @@ public class ChosendrinksFragment extends Fragment {
         textView43rd.setVisibility(View.GONE);
 
 
-
-
-
-
-
-
         imageButton = (ImageButton) view.findViewById(R.id.Istchosendeletebutton);
         imageButton.setVisibility(View.GONE);
         imageButton2nd = (ImageButton) view.findViewById(R.id.Secondchosendeletebutton);
@@ -426,7 +420,7 @@ public class ChosendrinksFragment extends Fragment {
                 if (!imageButton7th.isShown() && imageButton.isShown() || imageButton2nd.isShown()
                         || imageButton3rd.isShown() || imageButton4th.isShown() || imageButton5th.isShown()
                         || imageButton6th.isShown() || imageButton8th.isShown() || imageButton9th.isShown()
-                        || imageButton10th.isShown()  || imageButton11th.isShown() || imageButton12th.isShown()
+                        || imageButton10th.isShown() || imageButton11th.isShown() || imageButton12th.isShown()
                         || imageButton13th.isShown() || imageButton14th.isShown() || imageButton15th.isShown()
                         || imageButton16th.isShown() || imageButton17th.isShown() || imageButton18th.isShown()
                         || imageButton19th.isShown() || imageButton20th.isShown() || imageButton21st.isShown()
@@ -454,7 +448,7 @@ public class ChosendrinksFragment extends Fragment {
                 onPriceSetListener.setPrice(Price);
                 app.prev.remove("7");
                 if (!imageButton8th.isShown() && imageButton.isShown() || imageButton2nd.isShown()
-                        || imageButton3rd.isShown()   || imageButton4th.isShown() || imageButton5th.isShown()
+                        || imageButton3rd.isShown() || imageButton4th.isShown() || imageButton5th.isShown()
                         || imageButton6th.isShown() || imageButton7th.isShown() || imageButton9th.isShown()
                         || imageButton10th.isShown() || imageButton11th.isShown() || imageButton12th.isShown()
                         || imageButton13th.isShown() || imageButton14th.isShown() || imageButton15th.isShown()
